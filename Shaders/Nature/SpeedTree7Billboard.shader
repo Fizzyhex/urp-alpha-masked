@@ -28,6 +28,8 @@ Shader "Universal Render Pipeline/Nature/SpeedTree7 Billboard"
             Name "ForwardLit"
             Tags { "LightMode" = "UniversalForward" }
 
+            AlphaToMask On
+
             HLSLPROGRAM
 
             #pragma vertex SpeedTree7Vert
